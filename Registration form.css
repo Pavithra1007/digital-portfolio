@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student ID Registration Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		
+		h1 {
+			text-align: center;
+			color: #00698f;
+		}
+		
+		form {
+			width: 70%;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #fff;
+			border: 2px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 5px;
+			color: #666;
+		}
+		
+		input[type="text"], input[type="email"], input[type="tel"] {
+			width: 90%;
+			height: 40px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		input[type="submit"] {
+			width: 100%;
+			height: 40px;
+			background-color: #00698f;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #0088cc;
+		}
+	</style>
+</head>
+<body>
+	<h1>Student ID Registration Form</h1>
+	<form>
+		<label for="firstName">First Name:</label>
+		<input type="text" id="firstName" name="firstName"><br><br>
+		
+		<label for="lastName">Last Name:</label>
+		<input type="text" id="lastName" name="lastName"><br><br>
+		
+		<label for="studentId">Student ID:</label>
+		<input type="text" id="studentId" name="studentId"><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+		
+		<label for="phoneNumber">Phone Number:</label>
+		<input type="tel" id="phoneNumber" name="phoneNumber"><br><br>
+		
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
